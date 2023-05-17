@@ -1,0 +1,63 @@
+git init
+- to convert normal directory to git directory                              
+
+git config --global user.name kishore
+- to expose our name 
+
+git config --global user.email kishorenate@gmail.com
+- to expose our email
+
+git remote add origin https://github.com/kishore18111997/jenkins-shell-scripts
+- to link to remote repository to our local directory
+
+git remote show origin
+- to show the repository linked to local directory 
+
+git remote -v
+- shortcut to show the repository linked to local directory
+
+git add *
+- to add all the files to staging environment
+
+git status
+- to check the status of all the files in local directory
+
+git commit -m 'first commit'
+- to move the files in local directory to local repository
+
+git push origin master
+- to push the files from local repository to remote repository
+
+git push origin kishore --force-with-lease
+to forcefully push the files from local repository to remote repository
+
+
+git clone https://github.com/kishore18111997/jenkins-shell-scripts
+- to download all the files from remote repository
+
+git pull origin master
+- to download the files from remote repository that are absent in local directory
+
+git remote set-url origin https://github.com/kishore18111997/doggnate.online
+- to change the linked reomte repository to another remote repository (this command doesnt work properly)
+
+git branch kishore
+- to create a local branch called kishore
+
+git branch
+- to show all the local branch present in local directory
+
+git checkout kishore
+- to login to kishore branch in local directory
+
+git branch -d kishore
+- to delete the local branch called kishore
+
+git merge main
+- to merge pointed branch to main branch in local directory
+
+git stash index.html
+- to archieve a file that is in staging branch of local directory
+
+git stash pop 
+- to unarchieve a archieved file that is in staging branch of local directory
